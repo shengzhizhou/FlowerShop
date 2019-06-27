@@ -200,6 +200,51 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\shared\App_LocalResources\Site1.Master.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\shared\App_LocalResources\Site1.Master.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\shared\App_LocalResources\Site1.Master.zh-CN.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\home.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\home.aspx.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\home.aspx.zh-CN.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\AboutUs.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\AboutUs.aspx.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\AboutUs.aspx.zh-CN.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\Arrangement.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\Arrangement.aspx.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\Arrangement.aspx.zh-CN.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\ShoppingCart.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\ShoppingCart.aspx.zh-CN.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="view\App_LocalResources\ShoppingCart.aspx.en.resx" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

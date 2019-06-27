@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="JoesFlowerShop.view.shared.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="JoesFlowerShop.view.shared.Site1"  %>
 
 <!DOCTYPE html>
 
@@ -19,34 +19,43 @@
 <body>
 
     <form id="form1" runat="server">
-        <asp:Button OnClick="Unnamed_Click" runat="server" Text="EN" />
-        <asp:Button OnClick="Unnamed_Click1" runat="server" Text="CH" />
+        <div style="background-color: #e9ecef">
+        <asp:DropDownList ID="DropDownList_Language" runat="server"
+            OnSelectedIndexChanged="DropDownList_Language_SelectedIndexChanged" AutoPostBack="true">
+            <asp:ListItem Value="en">English</asp:ListItem>
+            <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
+        </asp:DropDownList>
+            </div>
         <div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>Joe's Flower Shop</h1>
+            
+  <h1>
+      <asp:Literal ID="Literal1" runat="server" meta:resourcekey="title"></asp:Literal></h1>
+            
             
 </div>
         <nav class=" justify-content-center navbar-expand-lg bg-info navbar-dark navbar sticky-top">
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="home.aspx">Home</a>
+                    <a class="nav-link" href="home.aspx"><asp:Literal ID="Literal2" runat="server" meta:resourcekey="home"></asp:Literal></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Arrangement.aspx">Arrangement</a>
+                    <a class="nav-link" href="Arrangement.aspx"><asp:Literal ID="Literal3" runat="server" meta:resourcekey="arrangement"></asp:Literal></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="AboutUs.aspx">About Us</a>
+                    <a class="nav-link" href="AboutUs.aspx"><asp:Literal ID="Literal4" runat="server" meta:resourcekey="aboutus"></asp:Literal></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ShoppingCart.aspx">Shopping Cart</a>
+                    <a class="nav-link" href="ShoppingCart.aspx"><asp:Literal ID="Literal5" runat="server" meta:resourcekey="shoppingcart"></asp:Literal></a>
                 </li>
             </ul>
         </nav>
         <div class="container-fluid">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               
             </asp:ContentPlaceHolder>
         </div>
-        <footer style="background-color: lightblue;">copyright by Joe's Flower Shop 2019</footer>
+        <footer style="background-color: lightblue;"><asp:Literal ID="Literal6" runat="server" meta:resourcekey="footer"></asp:Literal></footer>
 
     </form>
 

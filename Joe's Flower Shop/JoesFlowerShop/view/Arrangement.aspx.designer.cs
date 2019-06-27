@@ -13,13 +13,13 @@ namespace JoesFlowerShop.view {
     public partial class Arrangement {
         
         /// <summary>
-        /// GridView1 control.
+        /// Literal1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.Literal Literal1;
         
         /// <summary>
         /// prodnum1 control.
@@ -67,12 +67,12 @@ namespace JoesFlowerShop.view {
         protected global::System.Web.UI.WebControls.TextBox prodnum3;
         
         /// <summary>
-        /// Button2 control.
+        /// Button3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button Button3;
     }
 }
